@@ -1,38 +1,21 @@
-/* Estilos por defecto para pantallas grandes (> 768px) */
-body {
-    background-color: lightblue; /* Fondo azul claro */
-    color: black;
-    text-align: left;
+/* Pantallas grandes (> 768px): fondo azul claro */
+@media (min-width: 769px) {
+    body {
+      background-color: lightblue;
+    }
   }
   
-  h1 {
-    font-size: 36px;
-  }
-  
-  /* Pantallas medianas (entre 480px y 768px) */
+  /* Pantallas medianas (entre 480px y 768px): fondo naranja */
   @media (min-width: 480px) and (max-width: 768px) {
     body {
-      background-color: orange; /* Fondo naranja */
+      background-color: orange;
     }
   }
   
-  /* Pantallas pequeñas (menos de 480px) */
+  /* Pantallas pequeñas (< 480px): fondo verde claro */
   @media (max-width: 479px) {
     body {
-      background-color: lightgreen; /* Fondo verde claro */
-    }
-  }
-  
-  /* Estilos adicionales para pantallas pequeñas (máx. 600px) */
-  @media (max-width: 600px) {
-    body {
-      background-color: #222; /* Fondo oscuro */
-      color: white;
-      text-align: center;
-    }
-  
-    h1 {
-      font-size: 24px;
+      background-color: lightgreen;
     }
   }
   
